@@ -7,3 +7,4 @@ eggs/
 develop-eggs/
 
 src.egg-info/top_level.txt
+notebook/rf_model.pkl
