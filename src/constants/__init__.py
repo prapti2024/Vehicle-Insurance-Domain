@@ -1,6 +1,7 @@
 import os
 from datetime import date
 
+
 # All the ocnstant required for the projects are here 
 
 # For MongoDB connection
@@ -23,9 +24,11 @@ TEST_FILE_NAME: str = "test.csv"
 SCHEMA_FILE_PATH = os.path.join("config", "schema.yaml")
 
 
+# constants
 AWS_ACCESS_KEY_ID_ENV_KEY = "AWS_ACCESS_KEY_ID"
 AWS_SECRET_ACCESS_KEY_ENV_KEY = "AWS_SECRET_ACCESS_KEY"
-REGION_NAME = "us-east-1"
+AWS_ENDPOINT_URL_ENV_KEY = "AWS_ENDPOINT_URL"
+REGION_NAME = os.getenv("AWS_REGION") # this one's fine as a resolved value if you want
 
 
 """
