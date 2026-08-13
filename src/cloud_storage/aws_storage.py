@@ -1,4 +1,4 @@
-import boto3
+# import boto3
 from src.configuration.aws_connection import S3Client
 from io import StringIO
 from typing import Union,List

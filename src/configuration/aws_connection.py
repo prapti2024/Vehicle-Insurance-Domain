@@ -1,7 +1,6 @@
 import boto3
 import os
-from dotenv import load_dotenv
-load_dotenv()
+
 
 from src.constants import (
     AWS_SECRET_ACCESS_KEY_ENV_KEY,
