@@ -1,0 +1,16 @@
+.venv
+venv
+__pycache__
+.git
+*.pyc
+.github
+.ipynb_checkpoints
+.pytest_cache
+.mypy_cache
+*.ipynb
+.env
+.env.*
+*.pkl
+data
+logs
+mlruns
